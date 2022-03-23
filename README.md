@@ -69,11 +69,11 @@ In order to keep my product stable<br>
 As a developer or product manager<br>
 I want to make sure that everything works as expected
 
-Scenario: Check title of website after search<br>
+Scenario1: Check title of website after search<br>
 Given I open the url "http://google.com"<br>
 When I set "WebdriverIO" to the inputfield "#lst-ib"<br>
 And I press "Enter"<br>
 Then I expect that the title is "WebdriverIO - Google Search"<br>
 
-Scenario: Another test
-    Given ...
+Scenario2: Another test<br>
+Given ...
