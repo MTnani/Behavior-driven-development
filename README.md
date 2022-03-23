@@ -46,6 +46,7 @@ BDD specifies that business analysts and developers should collaborate in this a
 
 #### Title 
 An explicit title.<br>
+
 #### Narrative
 A short introductory section with the following structure:<br>
 As a: the person or role who will benefit from the feature;<br>
@@ -53,8 +54,9 @@ I want: the feature;<br>
 so that: the benefit or value of the feature.<br>
 
 #### Acceptance criteria
-A description of each specific scenario of the narrative with the following structure:
-Given: the initial context at the beginning of the scenario, in one or more clauses;
-When: the event that triggers the scenario;
-Then: the expected outcome, in one or more clauses.
+A description of each specific scenario of the narrative with the following structure:<br>
+Given: the initial context at the beginning of the scenario, in one or more clauses;<br>
+When: the event that triggers the scenario;<br>
+Then: the expected outcome, in one or more clauses.<br>
+
 BDD does not have any formal requirements for exactly how these user stories must be written down, but it does insist that each team using BDD come up with a simple, standardized format for writing down the user stories which includes the elements listed above.
