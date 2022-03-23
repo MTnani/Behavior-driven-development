@@ -63,7 +63,8 @@ Then: the expected outcome, in one or more clauses.<br>
 
 BDD does not have any formal requirements for exactly how these user stories must be written down, but it does insist that each team using BDD come up with a simple, standardized format for writing down the user stories which includes the elements listed above.
 
-Feature example:<br>
+#### myFirstTest.feature
+Feature:<br>
 In order to keep my product stable<br>
 As a developer or product manager<br>
 I want to make sure that everything works as expected
