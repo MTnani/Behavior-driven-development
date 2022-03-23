@@ -260,19 +260,19 @@ As a developer or product manager<br>
 
 
 #### Given steps
-I open the (url|site) "([^"]*)?"
+I open the (url|site) "([^"]*)?"<br>
 Open a site in the current browser window/tab<br>
 
-the element "([^"]*)?" is( not)* displayed
+the element "([^"]*)?" is( not)* displayed<br>
 Check the (in)visibility of an element<br>
 
-the element "([^"]*)?" is( not)* enabled
+the element "([^"]*)?" is( not)* enabled<br>
 Check if an element is (not) enabled<br>
 
-the element "([^"]*)?" is( not)* selected
+the element "([^"]*)?" is( not)* selected<br>
 Check if an element is (not) selected<br>
 
-the checkbox "([^"]*)?" is( not)* checked
+the checkbox "([^"]*)?" is( not)* checked<br>
 Check if a checkbox is (not) checked<br>
 
 there is (an|no) element "([^"]*)?" on the page
@@ -457,5 +457,5 @@ Select an option based on it's index<br>
 I select the option with the (name|value|text) "([^"]*)?" for element "([^"]*)?"
 Select an option based on its name, value or visible text<br>
 
-I move to element "([^"]*)?"( with an offset of (\d+),(\d+))
+I move to element "([^"]*)?"( with an offset of (\d+),(\d+))<br>
 Move the mouse by an (optional) offset of the specified element
