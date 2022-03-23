@@ -30,13 +30,13 @@ It's using examples to talk through how an application behaves... And having con
 ## Principles of BDD
 Test-driven development is a software-development methodology which essentially states that for each unit of software, a software developer must:
 
-define a test set for the unit first;
-make the tests fail;
-then implement the unit;
-finally verify that the implementation of the unit makes the tests succeed.
+define a test set for the unit first;<br>
+make the tests fail;<br>
+then implement the unit;<br>
+finally verify that the implementation of the unit makes the tests succeed.<br>
 This definition is rather non-specific in that it allows tests in terms of high-level software requirements, low-level technical details or anything in between. One way of looking at BDD therefore, is that it is a continued development of TDD which makes more specific choices than TDD.
 
-Behavior-driven development specifies that tests of any unit of software should be specified in terms of the desired behavior of the unit. Borrowing from agile software development the "desired behavior" in this case consists of the requirements set by the business — that is, the desired behavior that has business value for whatever entity commissioned the software unit under construction.[5][1] Within BDD practice, this is referred to as BDD being an "outside-in" activity.[16]
+Behavior-driven development specifies that tests of any unit of software should be specified in terms of the desired behavior of the unit. Borrowing from agile software development the "desired behavior" in this case consists of the requirements set by the business — that is, the desired behavior that has business value for whatever entity commissioned the software unit under construction. Within BDD practice, this is referred to as BDD being an "outside-in" activity.
 
 #### Behavioral specifications
 Following this fundamental choice, a second choice made by BDD relates to how the desired behavior should be specified. In this area BDD chooses to use a semi-formal format for behavioral specification which is borrowed from user story specifications from the field of object-oriented analysis and design. The scenario aspect of this format may be regarded as an application of Hoare logic to behavioral specification of software units using the domain-specific language of the situation.
@@ -44,12 +44,13 @@ Following this fundamental choice, a second choice made by BDD relates to how th
 BDD specifies that business analysts and developers should collaborate in this area and should specify behavior in terms of user stories, which are each explicitly written down in a dedicated document. Each user story should, in some way, follow the following structure: 
 
 Title <br>
-An explicit title.
-Narrative
-A short introductory section with the following structure:
-As a: the person or role who will benefit from the feature;
-I want: the feature;
-so that: the benefit or value of the feature.
+An explicit title.<br>
+Narrative<br>
+A short introductory section with the following structure:<br>
+As a: the person or role who will benefit from the feature;<br>
+I want: the feature;<br>
+so that: the benefit or value of the feature.<br>
+
 Acceptance criteria
 A description of each specific scenario of the narrative with the following structure:
 Given: the initial context at the beginning of the scenario, in one or more clauses;
