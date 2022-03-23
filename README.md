@@ -43,15 +43,15 @@ Following this fundamental choice, a second choice made by BDD relates to how th
 
 BDD specifies that business analysts and developers should collaborate in this area and should specify behavior in terms of user stories, which are each explicitly written down in a dedicated document. Each user story should, in some way, follow the following structure: 
 
-Title <br>
+#### Title 
 An explicit title.<br>
-Narrative<br>
+#### Narrative
 A short introductory section with the following structure:<br>
 As a: the person or role who will benefit from the feature;<br>
 I want: the feature;<br>
 so that: the benefit or value of the feature.<br>
 
-Acceptance criteria
+#### Acceptance criteria
 A description of each specific scenario of the narrative with the following structure:
 Given: the initial context at the beginning of the scenario, in one or more clauses;
 When: the event that triggers the scenario;
