@@ -67,7 +67,7 @@ BDD does not have any formal requirements for exactly how these user stories mus
 Feature:<br>
 In order to keep my product stable<br>
 As a developer or product manager<br>
-I want to make sure that everything works as expected
+<code>I</code> want to make sure that everything works as expected
 
 Scenario1: Check title of website after search<br>
 Given I open the url "http://google.com"<br>
