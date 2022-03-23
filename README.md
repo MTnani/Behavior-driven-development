@@ -49,6 +49,7 @@ An explicit title.<br>
 
 #### Narrative
 A short introductory section with the following structure:<br>
+
 As a: the person or role who will benefit from the feature;<br>
 I want: the feature;<br>
 so that: the benefit or value of the feature.<br>
