@@ -26,3 +26,33 @@ BDD is a second-generation, outside-in, pull-based, multiple-stakeholder, multip
 During an interview with Dan North at GOTO Conference in 2013, Liz defined BDD as:
 
 It's using examples to talk through how an application behaves... And having conversations about those examples.
+
+## Principles of BDD
+Test-driven development is a software-development methodology which essentially states that for each unit of software, a software developer must:
+
+define a test set for the unit first;
+make the tests fail;
+then implement the unit;
+finally verify that the implementation of the unit makes the tests succeed.
+This definition is rather non-specific in that it allows tests in terms of high-level software requirements, low-level technical details or anything in between. One way of looking at BDD therefore, is that it is a continued development of TDD which makes more specific choices than TDD.
+
+Behavior-driven development specifies that tests of any unit of software should be specified in terms of the desired behavior of the unit. Borrowing from agile software development the "desired behavior" in this case consists of the requirements set by the business — that is, the desired behavior that has business value for whatever entity commissioned the software unit under construction.[5][1] Within BDD practice, this is referred to as BDD being an "outside-in" activity.[16]
+
+#### Behavioral specifications
+Following this fundamental choice, a second choice made by BDD relates to how the desired behavior should be specified. In this area BDD chooses to use a semi-formal format for behavioral specification which is borrowed from user story specifications from the field of object-oriented analysis and design. The scenario aspect of this format may be regarded as an application of Hoare logic to behavioral specification of software units using the domain-specific language of the situation.
+
+BDD specifies that business analysts and developers should collaborate in this area and should specify behavior in terms of user stories, which are each explicitly written down in a dedicated document. Each user story should, in some way, follow the following structure: 
+
+Title
+An explicit title.
+Narrative
+A short introductory section with the following structure:
+As a: the person or role who will benefit from the feature;
+I want: the feature;
+so that: the benefit or value of the feature.
+Acceptance criteria
+A description of each specific scenario of the narrative with the following structure:
+Given: the initial context at the beginning of the scenario, in one or more clauses;
+When: the event that triggers the scenario;
+Then: the expected outcome, in one or more clauses.
+BDD does not have any formal requirements for exactly how these user stories must be written down, but it does insist that each team using BDD come up with a simple, standardized format for writing down the user stories which includes the elements listed above.
