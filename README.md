@@ -9,13 +9,13 @@ BDD is largely facilitated through the use of a simple domain-specific language 
 ## History
 Behavior-driven development is an extension of test-driven development, a development process that makes use of a simple DSL. These DSLs convert structured natural language statements into executable tests. The result is a closer relationship to acceptance criteria for a given function and the tests used to validate that functionality. As such it is a natural extension of TDD testing in general.
 
-BDD focuses on:
+BDD focuses on:<br>
 
-Where to start in the process
-What to test and what not to test
-How much to test in one go
-What to call the tests
-How to understand why a test fails
+Where to start in the process<br>
+What to test and what not to test<br>
+How much to test in one go<br>
+What to call the tests<br>
+How to understand why a test fails<br>
 At its heart, BDD is about rethinking the approach to unit testing and acceptance testing in order to avoid issues that naturally arise. For example, BDD suggests that unit test names be whole sentences starting with a conditional verb ("should" in English for example) and should be written in order of business value. Acceptance tests should be written using the standard agile framework of a user story: "Being a [role/actor/stakeholder] I want a [feature/capability] yielding a [benefit]". Acceptance criteria should be written in terms of scenarios and implemented in classes: Given [initial context], when [event occurs], then [ensure some outcomes] .
 
 Starting from this point, many people developed BDD frameworks over a period of years, finally framing it in terms of a communication and collaboration framework for developers, QA and non-technical or business participants in a software project. During the "Agile specifications, BDD and Testing eXchange" in November 2009 in London, Dan North gave the following description of BDD:
