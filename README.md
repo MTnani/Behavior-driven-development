@@ -275,187 +275,187 @@ Check if an element is (not) selected<br>
 the checkbox "([^"]*)?" is( not)* checked<br>
 Check if a checkbox is (not) checked<br>
 
-there is (an|no) element "([^"]*)?" on the page
+there is (an|no) element "([^"]*)?" on the page<br>
 Check if an element (does not) exist<br>
 
-the title is( not)* "([^"]*)?"
+the title is( not)* "([^"]*)?"<br>
 Check the title of the current browser window/tab<br>
 
-the element "([^"]*)?" contains( not)* the same text as element "([^"]*)?"
+the element "([^"]*)?" contains( not)* the same text as element "([^"]*)?"<br>
 Compare the text of two elements<br>
 
-the (button|element) "([^"]*)?"( not)* contains the text "([^"]*)?"
+the (button|element) "([^"]*)?"( not)* contains the text "([^"]*)?"<br>
 Check if an element contains the given text<br>
 
-the (button|element) "([^"]*)?"( not)* contains any text
+the (button|element) "([^"]*)?"( not)* contains any text<br>
 Check if an element does not contain any text<br>
 
-the (button|element) "([^"]*)?" is( not)* empty
+the (button|element) "([^"]*)?" is( not)* empty<br>
 Check if an element is empty<br>
 
-the page url is( not)* "([^"]*)?"
+the page url is( not)* "([^"]*)?"<br>
 Check the url of the current browser window/tab<br>
 
-the( css)* attribute "([^"]*)?" from element "([^"]*)?" is( not)* "([^"]*)?"
+the( css)* attribute "([^"]*)?" from element "([^"]*)?" is( not)* "([^"]*)?"<br>
 Check the value of an element's (css) attribute<br>
 
-the cookie "([^"]*)?" contains( not)* the value "([^"]*)?"
+the cookie "([^"]*)?" contains( not)* the value "([^"]*)?"<br>
 Check the value of a cookie<br>
 
-the cookie "([^"]*)?" does( not)* exist
+the cookie "([^"]*)?" does( not)* exist<br>
 Check the existence of a cookie<br>
 
-the element "([^"]*)?" is( not)* ([\d]+)px (broad|tall)
+the element "([^"]*)?" is( not)* ([\d]+)px (broad|tall)<br>
 Check the width/height of an element<br>
 
-the element "([^"]*)?" is( not)* positioned at ([\d]+)px on the (x|y) axis
+the element "([^"]*)?" is( not)* positioned at ([\d]+)px on the (x|y) axis<br>
 Check the position of an element<br>
 
-I have a screen that is ([\d]+) by ([\d]+) pixels
+I have a screen that is ([\d]+) by ([\d]+) pixels<br>
 Set the browser size to a given size<br>
 
-I have closed all but the first (window|tab)
+I have closed all but the first (window|tab)<br>
 Close all but the first browser window/tab<br>
 
-a (alertbox|confirmbox|prompt) is( not)* opened
+a (alertbox|confirmbox|prompt) is( not)* opened<br>
 Check if a modal is opened<br>
 
 #### Then steps
-I expect that the title is( not)* "([^"]*)?"
+I expect that the title is( not)* "([^"]*)?"<br>
 Check the title of the current browser window/tab<br>
 
-I expect that element "([^"]*)?" does( not)* appear exactly "([^"]*)?" times
+I expect that element "([^"]*)?" does( not)* appear exactly "([^"]*)?" times<br>
 Checks that the element is on the page a specific number of times<br>
 
-I expect that element "([^"]*)?" is( not)* visible
+I expect that element "([^"]*)?" is( not)* visible<br>
 Check if a certain element is visible<br>
 
-I expect that element "([^"]*)?" becomes( not)* visible
+I expect that element "([^"]*)?" becomes( not)* visible<br>
 Check if a certain element becomes visible<br>
 
-I expect that element "([^"]*)?" is( not)* within the viewport
+I expect that element "([^"]*)?" is( not)* within the viewport<br>
 Check if a certain element is within the current viewport<br>
 
-I expect that element "([^"]*)?" does( not)* exist
+I expect that element "([^"]*)?" does( not)* exist<br>
 Check if a certain element exists<br>
 
-I expect that element "([^"]*)?"( not)* contains the same text as element "([^"]*)?"
+I expect that element "([^"]*)?"( not)* contains the same text as element "([^"]*)?"<br>
 Compare the text of two elements<br>
 
-I expect that (button|element) "([^"]*)?"( not)* contains the text "([^"]*)?"
+I expect that (button|element) "([^"]*)?"( not)* contains the text "([^"]*)?"<br>
 Check if an element or input field contains the given text<br>
 
-I expect that (button|element) "([^"]*)?"( not)* contains any text
+I expect that (button|element) "([^"]*)?"( not)* contains any text<br>
 Check if an element or input field contains any text<br>
 
-I expect that (button|elementelement) "([^"]*)?" is( not)* empty
+I expect that (button|elementelement) "([^"]*)?" is( not)* empty<br>
 Check if an element or input field is empty<br>
 
-I expect that the url is( not)* "([^"]*)?"
+I expect that the url is( not)* "([^"]*)?"<br>
 Check if the the URL of the current browser window/tab is a certain string<br>
 
-I expect that the path is( not)* "([^"]*)?"
+I expect that the path is( not)* "([^"]*)?"<br>
 Check if the path of the URL of the current browser window/tab is a certain string<br>
 
-I expect the url to( not)* contain "([^"]*)?"
+I expect the url to( not)* contain "([^"]*)?"<br>
 Check if the URL of the current browser window/tab contains a certain string<br>
 
-I expect that the( css)* attribute "([^"]*)?" from element "([^"]*)?" is( not)* "([^"]*)?"
-Check the value of an element's (css) attribute
+I expect that the( css)* attribute "([^"]*)?" from element "([^"]*)?" is( not)* "([^"]*)?"<br>
+Check the value of an element's (css) attribute<br>
 
-<br>I expect that checkbox "([^"]*)?" is( not)* checked
+<br>I expect that checkbox "([^"]*)?" is( not)* checked<br>
 Check if a check-box is (not) checked<br>
 
 I expect that element "([^"]*)?" is( not)* selected<br>
 Check if an element is (not) selected<br>
 
-I expect that element "([^"]*)?" is( not)* enabled
+I expect that element "([^"]*)?" is( not)* enabled<br>
 Check if an element is (not) enabled<br>
 
-I expect that cookie "([^"]*)?"( not)* contains "([^"]*)?"
+I expect that cookie "([^"]*)?"( not)* contains "([^"]*)?"<br>
 Check if a cookie with a certain name contains a certain value<br>
 
 I expect that cookie "([^"]*)?"( not)* exists
 Check if a cookie with a certain name exist<br>
 
-I expect that element "([^"]*)?" is( not)* ([\d]+)px (broad|tall)
+I expect that element "([^"]*)?" is( not)* ([\d]+)px (broad|tall)<br>
 Check the width/height of an element<br>
 
-I expect that element "([^"]*)?" is( not)* positioned at ([\d]+)px on the (x|y) axis
+I expect that element "([^"]*)?" is( not)* positioned at ([\d]+)px on the (x|y) axis<br>
 Check the position of an element<br>
 
-I expect that element "([^"]*)?" (has|does not have) the class "([^"]*)?"
+I expect that element "([^"]*)?" (has|does not have) the class "([^"]*)?"<br>
 Check if an element has a certain class<br>
 
-I expect a new (window|tab) has( not)* been opened
+I expect a new (window|tab) has( not)* been opened<br>
 Check if a new window/tab has been opened<br>
 
-I expect the url "([^"]*)?" is opened in a new (tab|window)
+I expect the url "([^"]*)?" is opened in a new (tab|window)<br>
 Check if a URL is opened in a new browser window/tab<br>
 
-I expect that element "([^"]*)?" is( not)* focused
+I expect that element "([^"]*)?" is( not)* focused<br>
 Check if an element has the focus<br>
 
-I wait on element "([^"]*)?"( for (\d+)ms)*( to( not)* (be checked|be enabled|be selected|be visible|contain a text|contain a value|exist))*
+I wait on element "([^"]*)?"( for (\d+)ms)*( to( not)* (be checked|be enabled|be selected|be visible|contain a text|contain a value|exist))*<br>
 Wait for an element to be checked, enabled, selected, visible, contain a certain value or text or to exist<br>
 
-I expect that a (alertbox|confirmbox|prompt) is( not)* opened
+I expect that a (alertbox|confirmbox|prompt) is( not)* opened<br>
 Check if a modal is opened<br>
 
-I expect that a (alertbox|confirmbox|prompt)( not)* contains the text "$text"
+I expect that a (alertbox|confirmbox|prompt)( not)* contains the text "$text"<br>
 Check the text of a modal<br>
 
 #### When steps
-I (click|doubleclick) on the (link|button|element) "([^"]*)?"
+I (click|doubleclick) on the (link|button|element) "([^"]*)?"<br>
 (Double)click a link, button or element<br>
 
-I (add|set) "([^"]*)?" to the inputfield "([^"]*)?"
+I (add|set) "([^"]*)?" to the inputfield "([^"]*)?"<br>
 Add or set the content of an input field<br>
 
-I clear the inputfield "([^"]*)?"
+I clear the inputfield "([^"]*)?"<br>
 Clear an input field<br>
 
-I drag element "([^"]*)?" to element "([^"]*)?"
+I drag element "([^"]*)?" to element "([^"]*)?"<br>
 Drag an element to another element<br>
 
-I submit the form "([^"]*)?"
+I submit the form "([^"]*)?"<br>
 Submit a form<br>
 
-I pause for (\d+)ms
+I pause for (\d+)ms<br>
 Pause for a certain number of milliseconds<br>
 
-I set a cookie "([^"]*)?" with the content "([^"]*)?"
+I set a cookie "([^"]*)?" with the content "([^"]*)?"<br>
 Set the content of a cookie with the given name to the given string<br>
 
-I delete the cookie "([^"]*)?"
+I delete the cookie "([^"]*)?"<br>
 Delete the cookie with the given name<br>
 
-I press "([^"]*)?"
+I press "([^"]*)?"<br>
 Press a given key. You’ll find all supported characters here. To do that, the value has to correspond to a key from the table.<br>
 
-I (accept|dismiss) the (alertbox|confirmbox|prompt)
+I (accept|dismiss) the (alertbox|confirmbox|prompt)<br>
 Accept or dismiss a modal window<br>I enter "([^"]*)?" into the prompt<br>
 
-I enter "([^"]*)?" into the promptEnter a given text into a modal prompt
+I enter "([^"]*)?" into the promptEnter a given text into a modal prompt<br>
 Enter a given text into a modal prompt<br>
 
-I scroll to element "([^"]*)?"
+I scroll to element "([^"]*)?"<br>
 Scroll to a given element<br>
 
-I close the last opened (window|tab)
+I close the last opened (window|tab)<br>
 Close the last opened browser window/tab<br>
 
-I focus the last opened (window|tab)
+I focus the last opened (window|tab)<br>
 Focus the last opened browser window/tab<br>
 
-I log in to site with username "([^"]*)?" and password "([^"]*)?"
+I log in to site with username "([^"]*)?" and password "([^"]*)?"<br>
 Login to a site with the given username and password<br>
 
-I select the (\d+)(st|nd|rd|th) option for element "([^"]*)?"
+I select the (\d+)(st|nd|rd|th) option for element "([^"]*)?"<br>
 Select an option based on it's index<br>
 
-I select the option with the (name|value|text) "([^"]*)?" for element "([^"]*)?"
+I select the option with the (name|value|text) "([^"]*)?" for element "([^"]*)?"<br>
 Select an option based on its name, value or visible text<br>
 
 I move to element "([^"]*)?"( with an offset of (\d+),(\d+))<br>
-Move the mouse by an (optional) offset of the specified element
+Move the mouse by an (optional) offset of the specified element<br>
