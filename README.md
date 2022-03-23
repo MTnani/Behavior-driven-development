@@ -78,7 +78,7 @@ As a developer or product manager<br>
 <code>Scenario2</code>: Another test<br>
 <code>Given</code>  ...
 
-####Feature: Sample Snippets test
+#### Feature: Sample Snippets test
     As a developer
     I should be able to use given text snippets
 
