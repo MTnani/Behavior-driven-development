@@ -55,6 +55,7 @@ so that: the benefit or value of the feature.<br>
 
 #### Acceptance criteria
 A description of each specific scenario of the narrative with the following structure:<br>
+
 Given: the initial context at the beginning of the scenario, in one or more clauses;<br>
 When: the event that triggers the scenario;<br>
 Then: the expected outcome, in one or more clauses.<br>
