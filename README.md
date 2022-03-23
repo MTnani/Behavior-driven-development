@@ -363,7 +363,7 @@ Check if the URL of the current browser window/tab contains a certain string<br>
 I expect that the( css)* attribute "([^"]*)?" from element "([^"]*)?" is( not)* "([^"]*)?"<br>
 Check the value of an element's (css) attribute<br>
 
-<br>I expect that checkbox "([^"]*)?" is( not)* checked<br>
+I expect that checkbox "([^"]*)?" is( not)* checked<br>
 Check if a check-box is (not) checked<br>
 
 I expect that element "([^"]*)?" is( not)* selected<br>
