@@ -62,3 +62,17 @@ When: the event that triggers the scenario;<br>
 Then: the expected outcome, in one or more clauses.<br>
 
 BDD does not have any formal requirements for exactly how these user stories must be written down, but it does insist that each team using BDD come up with a simple, standardized format for writing down the user stories which includes the elements listed above.
+
+Feature:
+    In order to keep my product stable
+    As a developer or product manager
+    I want to make sure that everything works as expected
+
+Scenario: Check title of website after search
+    Given I open the url "http://google.com"
+    When I set "WebdriverIO" to the inputfield "#lst-ib"
+    And I press "Enter"
+    Then I expect that the title is "WebdriverIO - Google Search"
+
+Scenario: Another test
+    Given ...
